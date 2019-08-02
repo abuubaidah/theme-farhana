@@ -15,8 +15,14 @@
         }
     }
     .post-content p {
-        margin: 0;
         font-size: 18px;
         line-height: 32px;
+        margin-bottom: 30px;
+    }
+    .post-meta {
+        time {
+            font-size: 16px;
+            color: #848484;
+        }
     }
 }

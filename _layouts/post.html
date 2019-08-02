@@ -20,7 +20,7 @@ layout: default
             <div class="blog-details-area">
                 <div class="part-image">
                     {% if page.preview_image %}
-                        <img src="{{site.url}}/{{page.preview_image}}" alt="">
+                        <img src="{{site.baseurl}}/{{page.preview_image}}" alt="">
                     {% else %}
                         <img src="assets/img/blog-unavailable.jpg" alt="">
                     {% endif %}
@@ -29,7 +29,7 @@ layout: default
                 <p class="post-meta">
                     <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
                     {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-                    {{ page.date | date: date_format }}
+                    <i class="icofont-clock-time"></i>{{ page.date | date: date_format }}
                     </time>
                     {%- if page.author -%}
                     <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author | escape }}</span></span>
