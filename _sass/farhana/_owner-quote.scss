@@ -1,0 +1,45 @@
+/*****************************************
+	8. owner-quot
+*****************************************/
+.owner-quot-area {
+	background: #131313;
+	padding: 60px 0;
+	color: #fff;
+}
+.owner-quot-area .part-owner-pic {}
+.owner-quot-area .part-owner-pic img {
+    width: 100%;
+    border-right: 12px solid #353535;
+}
+.owner-quot-area .part-owner-quot {}
+.owner-quot-area .part-owner-quot h4 {
+    font-size: 22px;
+    margin-top: -4px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+.owner-quot-area .part-owner-quot h5 {
+    color: #bfbfbf;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 700;
+    margin-bottom: 22px;
+}
+.owner-quot-area .part-owner-quot p {
+	font-size: 18px;
+}
+.owner-quot-area .part-owner-quot p span {
+    font-family: 'Fondamento', cursive;
+    font-size: 80px;
+    line-height: 0;
+    padding-right: 5px;
+    display: -webkit-inline-box;
+    margin-bottom: -11px;
+    opacity: .3;
+}
+.owner-quot-area .owner-signature {
+    margin-top: 26px;
+}
+.owner-quot-area .owner-signature img {
+	width: 130px;
+}

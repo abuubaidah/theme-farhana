@@ -1,0 +1,52 @@
+<!-- footer-top begin -->
+<div class="footer-top-area" id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-6">
+                <div class="part-address">
+                    <h3>{{ site.data.footer.about-widget.title }}</h3>
+                    <ul>
+                        {% for address in site.data.footer.address-line %}
+                        <li>{{ address.single-line }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-md-6">
+                <div class="part-link">
+                    <h3>{{ site.data.footer.link-widget.title }}</h3>
+                    <ul>
+                        {% for link in site.data.footer.link-line %}
+                        <li><a href="{{ link.url }}">{{ link.single-link }}</a></li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="part-link">
+                    <h3>{{ site.data.footer.link-widget2.title }}</h3>
+                    <ul>
+                        {% for link in site.data.footer.link-line2 %}
+                        <li><a href="{{ link.url }}">{{ link.single-link }}</a></li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="part-contact">
+                    <h3>Subscribe to Our Newsletter</h3>
+                    <p>Subscribe to our newsletter to receive exclusive offers and the latest news on our products and services.</p>
+                    <form>
+                        <input type="email" placeholder="Your Mail" required>
+                        <button>Subscribe</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- footer-top end -->

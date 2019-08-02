@@ -1,0 +1,24 @@
+navigation:
+- title: home
+  url: '#home'
+  
+- title: About Us
+  url: '#about'
+
+- title: Features
+  url: '#features'
+
+- title: Portfolio
+  url: '#portfolio'
+
+- title: Team
+  url: '#team'
+
+- title: Price
+  url: '#price'
+
+- title: Testimonial
+  url: '#testimonial'
+
+- title: Contact
+  url: '#contact'

@@ -1,0 +1,60 @@
+
+/*****************************************
+	6. about
+*****************************************/
+.about-area {
+    background-color: #f6f7fe;
+    padding: 120px 0;
+}
+.about-area .about-img img {
+    width: 100%;
+    height: auto;
+    border: 10px solid #ffffff;
+}
+.about-area .about-content h2 {
+    color: #373737;
+    font-size: 44px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    margin-top: -7px;
+    position: relative;
+    z-index: 2;
+}
+.about-area .about-content h2:after {
+    position: absolute;
+    content: '';
+    left: -21px;
+    border-radius: 50%;
+    bottom: 50%;
+    width: 70px;
+    height: 70px;
+    z-index: -1;
+    margin-bottom: -32px;
+    background: #17b6e6;
+    opacity: .3;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    transition: .6s;
+}
+.about-area .about-content p {
+	color: #777777;
+}
+.about-area .about-content a {
+    text-transform: capitalize;
+    color: #fff;
+    background: #17b6e6;
+    margin-top: 20px;
+    text-decoration: none;
+    padding: 15px 33px;
+    display: inline-block;
+    border-radius: 4px;
+    font-weight: 500;
+    border: 1px solid #17b6e6;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    transition: .4s;
+}
+.about-area .about-content a:hover {
+	background: transparent;
+	color: #17b6e6;
+}

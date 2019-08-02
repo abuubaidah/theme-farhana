@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<html>
+
+    {% include head.html %}
+
+    <body>
+
+        {% include header.html %}
+        
+        {{content}}
+
+        {%- include footer-top.html -%}
+
+        {%- include footer.html -%}
+
+        {%- include all-js.html -%}
+        
+    </body>
+</html>

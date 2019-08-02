@@ -1,0 +1,24 @@
+<!-- header begin -->
+<header class="header-area">
+  <div class="container">
+    <div class="row d-flex">
+      <div class="col-xl-3 col-lg-2 d-flex align-items-center">
+        <div class="logo">
+            {%- assign default_paths = site.pages | map: "path" -%}
+            {%- assign page_paths = site.header_pages | default: default_paths -%}
+            {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
+          <a href="{{ "/" | relative_url }}">Farhana.</a>
+        </div>
+        <div class="nav-btn">
+            <i class="icofont-navigation-menu"></i>
+        </div>
+      </div>
+      <div class="col-xl-9 col-lg-10 d-flex align-items-center">
+        <div class="main-menu">
+            {% include nav.html %}
+        </div>
+      </div>
+    </div>
+  </div>
+</header> 
+  <!-- header end -->

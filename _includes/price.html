@@ -1,0 +1,39 @@
+<!-- price begin -->
+<div class="pricing-area" id="price">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <div class="area-title">
+                    <h2>{{site.data.price.price.price-section-title}}</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            {% for package in site.data.price.prices %}
+            <div class="col-lg-4 col-md-6">
+                <div class="single-price">
+                    <div class="part-text">
+                        <h3>{{package.package-title}}</h3>
+                        <ul>
+
+                            {% for feature in package.features %}
+                            <li>{{feature.feature-line}}</li>
+                            {% endfor %}
+                            
+                        </ul>
+                        <div class="part-btn">
+                            <h4>{{package.package-price}}</h4>
+                            <h5>{{package.package-period}}</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+
+        </div>
+    </div>
+</div>
+<!-- price end -->

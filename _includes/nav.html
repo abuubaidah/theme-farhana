@@ -1,0 +1,5 @@
+<ul>
+    {% for single_menu in site.data.nav.navigation %}
+      <li><a href="{{ single_menu.url }}">{{ single_menu.title }}</a></li>
+    {% endfor %}
+</ul>

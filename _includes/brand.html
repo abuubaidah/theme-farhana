@@ -1,0 +1,13 @@
+<!-- brand begin -->
+<div class="brand-area">
+    <div class="container">
+        <div class="row">
+            {% for brand in site.data.brand limit: 8 %}
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                    {%- include single-brand.html -%}
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+<!-- brand end -->

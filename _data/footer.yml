@@ -1,0 +1,52 @@
+# about widget
+
+about-widget:
+  title: About Farhana.
+
+address-line:
+  - single-line: 309 Sycamore Fork Road
+  - single-line: Hopkins, MN
+  - single-line: Minnesota - 55343
+  - single-line: 'Phone : 952-988-9049'
+  - single-line: Dincovizincy46@teleworm.us
+
+
+# first link widget
+
+link-widget:
+  title: Useful Links
+
+link-line:
+  - single-link: Terms & Conditions
+    url: '#'
+  - single-link: Our Policy
+    url: '#'
+  - single-link: Support
+    url: '#'
+  - single-link: Connect with Us
+    url: '#'
+  - single-link: Press Release
+    url: '#'
+  - single-link: Client Privacy
+    url: '#'
+
+
+# second link widget
+
+link-widget2:
+  title: Latest News
+
+link-line2:
+  - single-link: Creative firms that go
+    url: '#'
+  - single-link: Happiest Workplace Competition
+    url: '#'
+  - single-link: Marketing and strategy
+    url: '#'
+  - single-link: Connect with Us
+    url: '#'
+  - single-link: Press Release
+    url: '#'
+  - single-link: Client Privacy
+    url: '#'
+

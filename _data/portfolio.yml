@@ -1,0 +1,60 @@
+portfolio:
+  section-title: Our Portfolio
+
+
+portfolio-menu:
+  - item:
+    menu-name: All
+    filter: all
+
+  - item:
+    menu-name: UI/UX
+    filter: branding
+
+  - item:
+    menu-name: web design
+    filter: ui-design
+
+  - item:
+    menu-name: UI Design
+    filter: ux-design
+
+  - item:
+    menu-name: Software
+    filter: photography
+
+  - item:
+    menu-name: Creative
+    filter: web-design
+
+
+portfolio-elements:
+  - element:
+    title: UI/UX Design
+    img-path: assets/img/portfolio-1.jpg
+    data-category: ui-design
+    
+  - element:
+    title: Web Devlopment
+    img-path: assets/img/portfolio-2.jpg
+    data-category: ui-design , web-design
+
+  - element:
+    title: Graphic Design
+    img-path: assets/img/portfolio-3.jpg
+    data-category: branding , ui-design
+
+  - element:
+    title: Graphic Design
+    img-path: assets/img/portfolio-4.jpg
+    data-category: branding , ui-design
+
+  - element:
+    title: Software Development
+    img-path: assets/img/portfolio-5.jpg
+    data-category: branding , ux-design
+
+  - element:
+    title: Creative Works
+    img-path: assets/img/portfolio-6.jpg
+    data-category: branding , photography , web-design

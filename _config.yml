@@ -1,0 +1,9 @@
+# Site settings
+title: "Farhana - One Page Business Agency Template"
+logo: "/assets/img/logo.png"
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed

@@ -1,0 +1,50 @@
+<!-- blog begin -->
+<div class="blog-area" id="blog">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="area-title">
+                        <h2>Latest News</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                {%- for post in site.posts -%}
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-blog">
+                        <div class="part-img">
+                            {% if post.preview_image %}
+                                <img src="{{post.preview_image}}" alt="">
+                            {% else %}
+                                <img src="assets/img/blog-unavailable.jpg" alt="">
+                            {% endif %}
+                            <div class="post-time">
+                                <p>
+                                    {% if post.date %}
+                                    <span class="single-line"><i class="icofont-clock-time"></i>{{ post.date | date: "%I:%M %p"}}</span>
+                                    {% endif %}
+                                    
+                                    <span class="single-line"><i class="icofont-calendar"></i> {{ post.date | date: "%-d.%m.%Y %a"}}</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="part-text">
+                            <h3>
+                                <a href="{{ post.url | relative_url }}">
+                                    {{ post.title | truncatewords: 8, "..." }}
+                                </a>
+                            </h3>
+                            <p>{{ post.content | truncatewords: 24, "..."}}</p>
+                            <a class="read-more-button" href="{{ post.url | relative_url }}">Read More <i class="icofont-long-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                {%- endfor -%}
+
+            </div>
+        </div>
+    </div>
+    <!-- blog end -->

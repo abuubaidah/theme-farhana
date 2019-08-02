@@ -1,0 +1,150 @@
+/*****************************************
+	9. portflio
+*****************************************/
+.portfolio-area {
+	padding: 120px 0 90px;
+}
+.portfolio-area .area-title {
+    text-align: center;
+    margin-bottom: 78px;
+}
+.portfolio-area .area-title h2 {
+    color: #373737;
+    font-size: 44px;
+    font-weight: 700;
+    margin-bottom: 13px;
+    margin-top: -7px;
+    position: relative;
+    z-index: 2;
+    display: inline-block;
+}
+.portfolio-area .area-title h2:after {
+    position: absolute;
+    content: '';
+    left: 50%;
+    margin-left: -10px;
+    border-radius: 50% 40px 0 0;
+    bottom: 50%;
+    width: 20px;
+    height: 20px;
+    border: 3px solid #fff;
+    z-index: -1;
+    margin-bottom: -60px;
+    background: #17b6e6;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    transition: .6s;
+}
+.portfolio-area .area-title h2:before {
+    position: absolute;
+    content: '';
+    left: 50%;
+    margin-left: -100px;
+    bottom: 50%;
+    width: 200px;
+    height: 4px;
+    z-index: -1;
+    margin-bottom: -52px;
+    background: #17b6e6;
+    opacity: .3;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    transition: .4s;
+}
+.portfolio-area .single-portfolio {
+	margin-bottom: 30px;
+	position: relative;
+}
+.portfolio-area .single-portfolio:hover .hover-effect {
+	z-index: 2;
+	opacity: 1;
+}
+.portfolio-area .single-portfolio img {
+	width: 100%;
+}
+.portfolio-area .single-portfolio .hover-effect {
+    position: absolute;
+    text-align: center;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    top: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    z-index: -1;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    transition: .4s;
+    opacity: 0;
+}
+.portfolio-area .single-portfolio .hover-effect .d-table-cell {
+	vertical-align: middle;
+}
+.portfolio-area .single-portfolio .hover-effect h3 {
+	font-size: 22px;
+	font-weight: 600;
+}
+.portfolio-area .single-portfolio .hover-effect a {
+    text-decoration: none;
+    display: inline-block;
+    background: #17b6e6;
+    color: #fff;
+    -webkit-box-shadow: 5px 5px 19px -2px rgba(0, 0, 0, 0.29);
+    -moz-box-shadow: 5px 5px 19px -2px rgba(0, 0, 0, 0.29);
+    box-shadow: 5px 5px 19px -2px rgba(0, 0, 0, 0.29);
+    padding: 8px 20px;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    transition: .4s;
+}
+.portfolio-area .single-portfolio .hover-effect a:hover {
+	color: #17b6e6;
+	background: #fff;
+}
+.portfolio-area .btn-view-project {
+	text-align: center;
+}
+.portfolio-area .btn-view-project a {
+    text-transform: capitalize;
+    color: #fff;
+    background: #17b6e6;
+    margin-top: 10px;
+    text-decoration: none;
+    padding: 15px 33px;
+    display: inline-block;
+    border-radius: 4px;
+    font-weight: 500;
+    border: 1px solid #17b6e6;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    transition: .4s;
+}
+.portfolio-area .btn-view-project a i {
+	margin-left: 8px;
+}
+.portfolio-area .portfolio-menu {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.portfolio-area .portfolio-menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.portfolio-area .portfolio-menu li {
+    display: inline-block;
+    margin: 0 3px;
+    padding: 12px 24px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    color: #555;
+    border: 1px solid #17b6e6;
+    background: #f6f7fe;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    transition: .4s;
+}
+.portfolio-area .portfolio-menu li:hover {
+	background: #17b6e6;
+	color: #fff;
+}

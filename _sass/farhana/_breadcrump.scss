@@ -1,0 +1,33 @@
+/*****************************************
+	18. breadcrump
+*****************************************/
+.breadcrump-farhana {
+    background: url('../img/breadcrump-bg.jpg') center center no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 2;
+    &:after {
+        position: absolute;
+        content: '';
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: #000;
+        opacity: .7;
+        z-index: -1;
+    }
+    .breadcrump-content {
+        padding: 70px 0 100px;
+        text-align: center;
+        margin-top: 68px;
+        margin-bottom: 0;
+        font-weight: 700;
+        h2 {
+            &.breadcrump-title {
+                color: #fff;
+                font-size: 50px;
+            }
+        }
+    }
+}

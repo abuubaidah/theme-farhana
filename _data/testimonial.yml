@@ -1,0 +1,15 @@
+testimonial-section:
+  testimonial-title: Review Of Clients
+
+reviews:
+- photo: assets/img/user-1.jpg
+  name: Abu Ubaidah Tamim
+  quote: Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Virginia.
+
+- photo: assets/img/user-2.jpg
+  name: Shaikh Abu Darda
+  quote: Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Virginia.
+
+- photo: assets/img/user-3.jpg
+  name: Shaikh Abu Amer
+  quote: Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Virginia.

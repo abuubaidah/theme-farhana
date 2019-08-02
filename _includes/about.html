@@ -1,0 +1,28 @@
+ <!-- about begin -->
+ <div class="about-area" id="about">
+    <div class="container">
+        <div class="row justify-content-between d-flex">
+            <div class="col-lg-5 col-md-12 d-flex align-items-center">
+                <div class="about-content">
+
+                    {% for heading in site.data.about.about_text  %}
+                        <h2>{{heading.title}}</h2>
+
+                        {% for full_text in heading.details %}
+                            <p>{{full_text.para | truncatewords: 40}}</p>
+                        {% endfor %}
+
+                    {% endfor %}
+
+                    <a href="{{site.baseurl}}\about">Let's know more</a>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12">
+                <div class="about-img">
+                    <img src="{{site.data.about.about_img.path}}" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- about end -->

@@ -1,0 +1,149 @@
+/*****************************************
+	10. team
+*****************************************/
+.team-area {
+    background-color: #f6f7fe;
+    padding: 120px 0 90px;
+}
+.team-area .area-title {
+    text-align: center;
+    margin-bottom: 78px;
+}
+.team-area .area-title h2 {
+    color: #373737;
+    font-size: 44px;
+    font-weight: 700;
+    margin-bottom: 13px;
+    margin-top: -7px;
+    position: relative;
+    z-index: 2;
+    display: inline-block;
+}
+.team-area .area-title h2:after {
+    position: absolute;
+    content: '';
+    left: 50%;
+    margin-left: -10px;
+    border-radius: 50% 40px 0 0;
+    bottom: 50%;
+    width: 20px;
+    height: 20px;
+    border: 3px solid #f6f7fe;
+    z-index: -1;
+    margin-bottom: -60px;
+    background: #17b6e6;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    transition: .4s;
+}
+.team-area .area-title h2:before {
+    position: absolute;
+    content: '';
+    left: 50%;
+    margin-left: -100px;
+    bottom: 50%;
+    width: 200px;
+    height: 4px;
+    z-index: -1;
+    margin-bottom: -52px;
+    background: #17b6e6;
+    opacity: .3;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    transition: .4s;
+}
+.team-area .team-member {
+    border-bottom: 2px solid #17b6e6;
+    position: relative;
+    margin-bottom: 30px;
+}
+.team-area .team-member .member-pic img {
+  width: 100%;
+}
+.team-area .team-member .member-data {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+  overflow: hidden;
+}
+.team-area .team-member .member-data .name h4 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #555;
+    padding-top: 10px;
+    background: #fff;
+    padding-bottom: 10px;
+    margin: 0;
+    border-top: 2px groove #17b6e6;
+}
+.team-area .team-member .member-data .name h6 {
+    color: #fff;
+    font-size: 16px;
+    position: relative;
+    margin: 0;
+    padding: 6px;
+    z-index: 1;
+}
+.team-area .team-member .member-data .name h6:after {
+    position: absolute;
+    content: '';
+    left: 52%;
+    top: 0;
+    height: 100%;
+    width: 60%;
+    background: #17b6e6;
+    margin-left: -30%;
+    z-index: -1;
+    transform: skewX(15deg);
+    border-radius: 0 5px;
+}
+.team-area .team-member .member-data .name h6:before {
+    position: absolute;
+    content: '';
+    right: 52%;
+    top: 0;
+    height: 100%;
+    width: 60%;
+    background: #17b6e6;
+    margin-right: -30%;
+    z-index: -1;
+    transform: skewX(-15deg);
+    border-radius: 5px 0;
+}
+.team-area .team-member .member-data .social {
+  background: #17b6e6;
+  width: 100%;
+  transition: 1s;
+  padding: 10px 0;
+  border-top: 1px solid #add8e6;
+  -webkit-transition: all .4s ease;
+  -moz-transition: all .4s ease;
+  transition: all .4s ease;
+  margin-bottom: -45px;
+}
+.team-area .team-member .member-data .social ul li a {
+  text-decoration: none;
+  margin-right: 10px;
+  color: #fff;
+}
+.team-area .team-member .member-data .social ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  li {
+    display: inline-block;
+  }
+}
+.team-area .team-member .member-data .social ul li a:hover {
+  color: #e0e0e0;
+}
+.team-area .team-member .member-data .social ul li:last-child a {
+  margin-right: 0;
+}
+.team-area .team-member:hover {
+  box-shadow: 0px 6px 12px -8px #000;
+}
+.team-area .team-member:hover .member-data .social {
+  margin-bottom: 0;
+}

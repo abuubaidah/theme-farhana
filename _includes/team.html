@@ -1,0 +1,44 @@
+<!-- team begin -->
+<div class="team-area" id="team">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <div class="area-title">
+                    <h2>{{site.data.team.team-section.section-title}}</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+
+            {% for member in site.data.team.members %}
+            <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+                <div class="team-member">
+                    <div class="member-pic">
+                        <img src="{{member.photo}}" alt="">
+                    </div>
+                    <div class="member-data">
+                        <div class="name">
+                            <h6>{{member.position}}</h6>
+                            <h4>{{member.name}}</h4>
+                        </div>
+                        <div class="social">
+                            <ul>
+                            {% for link in member.social %}
+                                <li>
+                                    <a href="{{link.url}}"><i class="{{link.icon}}"></i></a>
+                                </li>
+                            {% endfor %}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+
+        </div>
+    </div>
+</div>
+<!-- team end -->

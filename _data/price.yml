@@ -1,0 +1,42 @@
+price:
+  price-section-title: Pricing Plan
+
+prices:
+- package-title: Basic
+  package-price: $00.90
+  package-period: [Per Month]
+  features:
+  - feature-line: Clean & easy to use app
+  - feature-line: Simple widget generator
+  - feature-line: <del>X Neat dashboard with settings</del>
+  - feature-line: X Helpful live support
+  - feature-line: Website Clean Codes
+  - feature-line: Valid Codes & Design
+  - feature-line: Updated Graphics
+  - feature-line: 24/7 Online Support
+
+- package-title: Advanced
+  package-price: $100.90
+  package-period: [Per Month]
+  features:
+  - feature-line: Clean & easy to use app
+  - feature-line: Simple widget generator
+  - feature-line: <del>X Neat dashboard with settings</del>
+  - feature-line: X Helpful live support
+  - feature-line: Website Clean Codes
+  - feature-line: Valid Codes & Design
+  - feature-line: Updated Graphics
+  - feature-line: 24/7 Online Support
+
+- package-title: Team
+  package-price: $60.90
+  package-period: [Per Month]
+  features:
+  - feature-line: Clean & easy to use app
+  - feature-line: Simple widget generator
+  - feature-line: <del>X Neat dashboard with settings</del>
+  - feature-line: X Helpful live support
+  - feature-line: Website Clean Codes
+  - feature-line: Valid Codes & Design
+  - feature-line: Updated Graphics
+  - feature-line: 24/7 Online Support

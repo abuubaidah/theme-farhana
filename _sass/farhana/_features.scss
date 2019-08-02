@@ -1,0 +1,90 @@
+/*****************************************
+	7. features
+*****************************************/
+.feature-area {
+    padding: 120px 0 60px;
+}
+.feature-area .area-title {
+    text-align: center;
+    margin-bottom: 78px;
+}
+.feature-area .area-title h2 {
+    color: #373737;
+    font-size: 44px;
+    font-weight: 700;
+    margin-bottom: 13px;
+    margin-top: -7px;
+    position: relative;
+    z-index: 2;
+    display: inline-block;
+}
+.feature-area .area-title h2:after {
+    position: absolute;
+    content: '';
+    left: 50%;
+    margin-left: -10px;
+    border-radius: 50% 40px 0 0;
+    bottom: 50%;
+    width: 20px;
+    height: 20px;
+    border: 3px solid #fff;
+    z-index: -1;
+    margin-bottom: -60px;
+    background: #17b6e6;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    transition: .4s;
+}
+.feature-area .area-title h2:before {
+    position: absolute;
+    content: '';
+    left: 50%;
+    margin-left: -100px;
+    bottom: 50%;
+    width: 200px;
+    height: 4px;
+    z-index: -1;
+    margin-bottom: -52px;
+    background: #17b6e6;
+    opacity: .3;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    transition: .4s;
+}
+.feature-area .single-feature {
+    margin-bottom: 60px;
+    padding-left: 20px;
+    border-left: 10px solid #fafafa;
+    overflow-x: hidden;
+}
+.feature-area .single-feature .part-icon {
+    margin-bottom: 25px;
+}
+.feature-area .single-feature .part-icon img {
+	width: 60px;
+}
+.feature-area .single-feature .part-text {}
+.feature-area .single-feature .part-text h3 {
+    color: #555;
+    font-size: 22px;
+    margin-bottom: 24px;
+    font-weight: 700;
+    position: relative;
+    display: inline-block;
+}
+.feature-area .single-feature .part-text h3:after {
+    position: absolute;
+    content: '';
+    width: 40px;
+    height: 6px;
+    margin-top: -3px;
+    top: 50%;
+    right: -10%;
+    background: #17b6e6;
+    opacity: .2;
+    z-index: -1;
+}
+.feature-area .single-feature .part-text p {
+	color: #777777;
+	font-size: 16px;
+}

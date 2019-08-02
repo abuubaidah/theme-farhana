@@ -1,0 +1,69 @@
+/*****************************************
+	4. banner
+*****************************************/
+.banner-area {
+	height: 100vh;
+	// background: url('../assets/img/banner.jpg') center center no-repeat;
+	position: relative;
+	z-index: 3;
+}
+.banner-area:after {
+	position: absolute;
+	content: '';
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	opacity: .7;
+	z-index: -1;
+}
+.banner-area img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+}
+.banner-area .banner-content {
+	height: 100vh;
+	display: table;
+	text-align: center;
+}
+.banner-area .banner-content .text-body {
+	display: table-cell;
+	vertical-align: middle;
+}
+.banner-area .banner-content .text-body h1 {
+    font-size: 50px;
+    text-transform: capitalize;
+    color: #fff;
+    margin-bottom: 11px;
+    font-weight: 700;
+}
+.banner-area .banner-content .text-body p {
+	color: #fff;
+	font-size: 18px;
+	line-height: 1.6;
+	opacity: .8;
+}
+.banner-area .banner-content .text-body a {
+    text-transform: capitalize;
+    color: #17b6e6;
+    background: transparent;
+    margin-top: 20px;
+    text-decoration: none;
+    padding: 15px 33px;
+    display: inline-block;
+    border-radius: 4px;
+    font-weight: 500;
+    border: 1px solid #17b6e6;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    transition: .4s;
+}
+.banner-area .banner-content .text-body a:hover {
+	border: 1px solid #fff;
+    background: #fff;
+    color: #555;
+}

@@ -1,0 +1,36 @@
+<!-- review begin -->
+<div class="review-area" id="testimonial">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <div class="area-title">
+                    <h2>{{site.data.testimonial.testimonial-section.testimonial-title}}</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+
+                <div class="review-carousel">
+
+                    {% for review in site.data.testimonial.reviews %}
+                    <div class="single-review">
+                        <div class="part-img">
+                            <img src="{{review.photo}}" alt="">
+                        </div>
+                        <div class="part-text">
+                            <h4>{{review.name}}</h4>
+                            <p>{{review.quote}}</p>
+                        </div>
+                    </div>
+                    {% endfor %}
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- review end -->
