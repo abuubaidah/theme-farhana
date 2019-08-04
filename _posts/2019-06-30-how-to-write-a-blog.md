@@ -5,6 +5,7 @@ time: '01:30 PM'
 preview_image: 'assets/img/blog-2.jpg'
 categories: junk
 author: "Abu Ubaidah"
+comments: true
 meta: "Springfield"
 ---
 
