@@ -50,3 +50,19 @@ link-line2:
   - single-link: Client Privacy
     url: '#'
 
+# third link widget
+
+link-widget3:
+  title: Useful Links
+
+link-line3:
+  - single-link: Terms & Conditions
+    url: '#'
+  - single-link: Our Policy
+    url: '#'
+  - single-link: Support
+    url: '#'
+  - single-link: Connect with Us
+    url: '#'
+  - single-link: Press Release
+    url: '#'
