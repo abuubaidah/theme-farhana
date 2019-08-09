@@ -4,8 +4,8 @@ title: "Farhana - One Page Business Agency Jekyll Theme"
 email: "autworks2018@gmail.com"
 description: "Farhana Jekyll is an one page Jekyll theme to create creative agency website or business support portal. You will get a clean, polished and modern website with Farhana Jekyll Theme. It’s a ready website template for your creative agency portal solution."
 keywords: "jekyll, minimal jekyll, jekyll theme, responsive jekyll, seo friendly blog, super fast blog, responsive"
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "theme-farhana" # the subpath of your site, e.g. /blog
+url: "https://abuubaidah.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 markdown: kramdown
