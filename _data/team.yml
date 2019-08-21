@@ -69,6 +69,73 @@ members:
     - icon: icofont-brand-whatsapp
       url: https://www.whatsapp.com/
 
+- name: Catherine J. Hanshaw
+  position: CEO & Founder
+  photo: assets/img/team-member-1.jpg
+  social:
+    - icon: icofont-facebook
+      url: http://facebook.com
+    
+    - icon: icofont-twitter
+      url: https://twitter.com
+
+    - icon: icofont-instagram
+      url: https://instagram.com
+
+    - icon: icofont-brand-whatsapp
+      url: https://www.whatsapp.com/
+
+
+- name: Timothy Desailly
+  position: Manager
+  photo: assets/img/team-member-2.jpg
+  social:
+    - icon: icofont-facebook
+      url: http://facebook.com
+    
+    - icon: icofont-twitter
+      url: https://twitter.com
+
+    - icon: icofont-instagram
+      url: https://instagram.com
+
+    - icon: icofont-brand-whatsapp
+      url: https://www.whatsapp.com/
+
+
+- name: Anthony Healy
+  position: Developer
+  photo: assets/img/team-member-3.jpg
+  social:
+    - icon: icofont-facebook
+      url: http://facebook.com
+    
+    - icon: icofont-twitter
+      url: https://twitter.com
+
+    - icon: icofont-instagram
+      url: https://instagram.com
+
+    - icon: icofont-brand-whatsapp
+      url: https://www.whatsapp.com/
+
+
+- name: Ibrakhim Panova
+  position: UI/UX Designer
+  photo: assets/img/team-member-4.jpg
+  social:
+    - icon: icofont-facebook
+      url: http://facebook.com
+    
+    - icon: icofont-twitter
+      url: https://twitter.com
+
+    - icon: icofont-instagram
+      url: https://instagram.com
+
+    - icon: icofont-brand-whatsapp
+      url: https://www.whatsapp.com/
+
   
 
 

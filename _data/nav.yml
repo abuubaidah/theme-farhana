@@ -3,22 +3,19 @@ navigation:
   url: '#home'
   
 - title: About Us
-  url: '#about'
+  url: '/about'
 
 - title: Features
-  url: '#features'
+  url: '/feature'
 
 - title: Portfolio
-  url: '#portfolio'
+  url: '/portfolio'
 
 - title: Team
-  url: '#team'
+  url: '/team'
 
 - title: Price
   url: '#price'
-
-- title: Testimonial
-  url: '#testimonial'
 
 - title: Contact
   url: '#contact'

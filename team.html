@@ -1,4 +1,20 @@
-<!-- team begin -->
+---
+layout: default
+---
+
+<div class="breadcrump-farhana">
+  <div class="container">
+      <div class="row justify-content-center">
+          <div class="col-xl-10 col-lg-10">
+              <div class="breadcrump-content">
+                  <h2 class="breadcrump-title" itemprop="name headline">Our Expart Team</h2>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+
 <div class="team-area" id="team">
     <div class="container">
         <div class="row justify-content-center">
@@ -13,7 +29,7 @@
     <div class="container">
         <div class="row">
 
-            {% for member in site.data.team.members limit:4 %}
+            {% for member in site.data.team.members %}
             <div class="col-12 col-sm-6 col-md-6 col-lg-3">
                 <div class="team-member">
                     <div class="member-pic">
@@ -37,7 +53,7 @@
                 </div>
             </div>
             {% endfor %}
-
+            
         </div>
     </div>
 </div>
